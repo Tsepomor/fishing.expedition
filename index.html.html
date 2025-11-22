@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Fishing Journey - A Passionate Hobby</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Changed font family to Verdana for the entire page */
+        body {
+            font-family: Verdana, sans-serif;
+        }
+
+        /* Modified main heading (h1): larger size for hierarchy, red color, centered alignment */
+        h1 {
+            color: #dc2626; /* Red color */
+            font-size: 4rem; /* Larger size for visual hierarchy */
+            text-align: center;
+        }
+
+        /* Modified subheadings (h2): navy color, adjusted size, added margins and padding for spacing */
+        h2 {
+            color: #1e3a8a; /* Navy blue color */
+            font-size: 2.5rem; /* Slightly larger for hierarchy */
+            margin: 2rem 0 1rem 0; /* Adjusted margins to create space */
+            padding: 0.5rem 0; /* Padding for better separation */
+            text-align: left; /* Explicit left alignment for consistency */
+        }
+
+        /* Changed paragraph text color to dark green for contrast and theme, with adjusted padding */
+        p {
+            color: #2c5530; /* Dark green for good contrast on light backgrounds */
+            padding: 0.5rem 0; /* Added padding to prevent clutter around text */
+            text-align: left; /* Left alignment for readability in body text */
+            line-height: 1.6; /* Improved readability with line spacing */
+        }
+
+        /* Set background color for the body and specific sections */
+        body {
+            background-color: #f0f8ff; /* Light Alice Blue for a calm, watery theme */
+        }
+
+        /* Background for header section */
+        header {
+            background-color: #1e40af; /* Deeper blue for header */
+        }
+
+        /* Background for footer */
+        footer {
+            background-color: #1e3a8a; /* Navy for footer */
+        }
+
+        /* Adjusted alignment and styling for figcaptions (center alignment) */
+        figcaption {
+            text-align: center;
+            font-style: italic; /* Italics for emphasis on captions */
+            color: #4b5563; /* Gray for subtlety */
+            padding-top: 0.5rem;
+        }
+
+        /* Styling for links: changed color, removed default underline, added hover effects */
+        a {
+            color: #059669; /* Green color to match fishing theme */
+            text-decoration: none; /* Remove underline */
+        }
+
+        a:hover {
+            color: #dc2626; /* Red on hover for visibility */
+            text-decoration: underline; /* Add underline on hover to stand out */
+            transition: color 0.3s ease; /* Smooth transition */
+        }
+
+        /* Adjusted margins and padding for articles and sections to create more space */
+        article, aside, section {
+            margin-bottom: 2rem; /* Increased bottom margin for better spacing */
+            padding: 1.5rem; /* Increased padding to prevent clutter */
+        }
+
+        /* Specific emphasis styling: bold for strong elements, italics for em */
+        b, strong {
+            font-weight: bold;
+            color: #1e3a8a; /* Navy bold for emphasis */
+        }
+
+        em {
+            font-style: italic;
+            color: #2c5530; /* Dark green italics */
+        }
+
+        /* Center alignment for footer paragraphs and copyright for improved layout */
+        footer p {
+            text-align: center;
+        }
+
+        /* Adjusted alignment for navigation list items (flex already centers, but explicit) */
+        nav ul {
+            justify-content: center; /* Center the navigation links */
+        }
+    </style>
+</head>
+<body class="bg-blue-50 text-slate-800">
+    <!-- Header Section -->
+    <header class="bg-blue-900 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-6">
+            <h1 class="text-3xl font-bold">Hook, Line & Sinker</h1>
+            <p class="text-blue-200">My Passion for Fishing</p>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="bg-blue-800 py-4">
+            <div class="container mx-auto px-4">
+                <ul class="flex space-x-6">
+                    <li><a href="#about" class="hover:text-blue-300 transition-colors">About</a></li>
+                    <li><a href="#types" class="hover:text-blue-300 transition-colors">Fishing Types</a></li>
+                    <li><a href="#gear" class="hover:text-blue-300 transition-colors">Gear Guide</a></li>
+                    <li><a href="#tips" class="hover:text-blue-300 transition-colors">Pro Tips</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-8">
+        <!-- About Section -->
+        <section id="about" class="mb-12">
+            <h2 class="text-2xl font-bold mb-6 text-blue-800 border-b-2 border-blue-300 pb-2">Why I Love Fishing</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <article class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-4 text-blue-700">The Peace of the Water</h3>
+                    <p>Fishing provides a unique sense of peace and connection with nature. There's something magical about being on the water at sunrise, watching the world wake up while waiting for that <strong>first bite</strong>.</p>
+                    <p>The rhythm of casting, retrieving, and patiently waiting creates a <em>meditative experience</em> that helps me disconnect from daily stresses and reconnect with myself.</p>
+                </article>
+
+                <figure class="bg-white p-4 rounded-lg shadow-md">
+                    <img
+                        src="https://placeholder-image-service.onrender.com/image/600x400?prompt=Serene lake at sunrise with mist rising from calm water and fishing boat&id=5351b7fa-071b-4964-8cd2-0e7712e893e3"
+                        alt="Peaceful morning fishing scene on a calm lake with mist rising from the water"
+                        class="w-full h-64 object-cover rounded-md mb-4"
+                    >
+                    <figcaption class="text-sm text-gray-600 text-center">A perfect morning for fishing - calm waters and beautiful scenery</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- Fishing Types Section -->
+        <section id="types" class="mb-12">
+            <h2 class="text-2xl font-bold mb-6 text-blue-800 border-b-2 border-blue-300 pb-2">Types of Fishing I Enjoy</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <article class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-4 text-blue-700">Freshwater Fishing</h3>
+                    <p>From bass in lakes to trout in streams, freshwater fishing offers diverse experiences. Each species requires <strong>different techniques</strong> and provides unique challenges.</p>
+                    <img
+                        src="https://placeholder-image-service.onrender.com/image/400x300?prompt=Person fishing in a freshwater river with lush green surroundings&id=5351b7fa-071b-4964-8cd2-0e7712e893e3"
+                        alt="Angler fishing in a freshwater river surrounded by green trees and nature"
+                        class="w-full h-48 object-cover rounded-md mt-4"
+                    >
+                </article>
+
+                <article class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-4 text-blue-700">Saltwater Fishing</h3>
+                    <p>There's nothing like the thrill of battling <em>larger saltwater species</em>. The ocean presents unpredictable conditions that make every trip an adventure.</p>
+                    <img
+                        src="https://placeholder-image-service.onrender.com/image/400x300?prompt=Deep sea fishing boat with angler fighting a large fish&id=5351b7fa-071b-4964-8cd2-0e7712e893e3"
+                        alt="Deep sea fishing scene with angler battling a large saltwater fish from a boat"
+                        class="w-full h-48 object-cover rounded-md mt-4"
+                    >
+                </article>
+
+                <article class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-4 text-blue-700">Fly Fishing</h3>
+                    <p>The artistry of fly fishing combines skill, precision, and patience. It's less about catching fish and more about the <strong>graceful dance</strong> between angler, fly, and water.</p>
+                    <img
+                        src="https://placeholder-image-service.onrender.com/image/400x300?prompt=Fly fisherman casting line in a mountain stream&id=5351b7fa-071b-4964-8cd2-0e7712e893e3"
+                        alt="Fly fisherman expertly casting his line in a clear mountain stream surrounded by wilderness"
+                        class="w-full h-48 object-cover rounded-md mt-4"
+                    >
+                </article>
+            </div>
+        </section>
+
+        <!-- Gear & Tips Section -->
+        <section id="gear-tips" class="grid md:grid-cols-3 gap-8 mb-12">
+            <!-- Gear Guide -->
+            <article id="gear" class="bg-white p-6 rounded-lg shadow-md md:col-span-2">
+                <h2 class="text-2xl font-bold mb-6 text-blue-800 border-b-2 border-blue-300 pb-2">Essential Fishing Gear</h2>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="text-xl font-semibold mb-3 text-blue-700">Rods & Reels</h3>
+                        <p>The right combo depends on your target species and fishing style. <em>Spinning reels</em> are great for beginners, while baitcasters offer more control for experienced anglers.</p>
+                        <img
+                            src="https://placeholder-image-service.onrender.com/image/400x300?prompt=Collection of fishing rods and reels neatly organized&id=5351b7fa-071b-4964-8cd2-0e7712e893e3"
+                            alt="Assortment of fishing rods and reels of different sizes and types"
+                            class="w-full h-48 object-cover rounded-md mt-4"
+                        >
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-3 text-blue-700">Tackle & Bait</h3>
+                        <p>From artificial lures to live bait, having the <strong>right tackle</strong> can make or break your fishing trip. Always research what works best for your target species.</p>
+                        <img
+                            src="https://placeholder-image-service.onrender.com/image/400x300?prompt=Open tackle box with various fishing lures and hooks&id=5351b7fa-071b-4964-8cd2-0e7712e893e3"
+                            alt="Open fishing tackle box displaying various colorful lures, hooks, and fishing accessories"
+                            class="w-full h-48 object-cover rounded-md mt-4"
+                        >
+                    </div>
+                </div>
+            </article>
+
+            <!-- Aside with Pro Tips -->
+            <aside id="tips" class="bg-blue-100 p-6 rounded-lg shadow-md">
+                <h2 class="text-2xl font-bold mb-6 text-blue-800 border-b-2 border-blue-300 pb-2">Pro Tips</h2>
+                <div class="space-y-4">
+                    <div class="bg-white p-4 rounded-lg">
+                        <h3 class="font-semibold text-blue-700">Time It Right</h3>
+                        <p><strong>Fish are most active</strong> during dawn and dusk. Overcast days can also provide excellent fishing conditions throughout the day.</p>
+                    </div>
+                    <div class="bg-white p-4 rounded-lg">
+                        <h3 class="font-semibold text-blue-700">Stay Quiet</h3>
+                        <p>Fish are sensitive to vibrations and noise. Move quietly and avoid banging equipment in the boat or on the dock.</p>
+                    </div>
+                    <div class="bg-white p-4 rounded-lg">
+                        <h3 class="font-semibold text-blue-700">Practice Catch & Release</h3>
+                        <p>Handle fish gently with wet hands and return them to the water quickly to ensure <em>sustainable fishing</em> for years to come.</p>
+                    </div>
+                </div>
+            </aside>
+        </section>
+
+        <!-- Memorable Catch Section -->
+        <section class="bg-white p-6 rounded-lg shadow-md mb-12">
+            <h2 class="text-2xl font-bold mb-6 text-blue-800 border-b-2 border-blue-300 pb-2">Memorable Catch</h2>
+            <div class="flex flex-col items-center">
+                <figure class="max-w-lg">
+                    <img
+                        src="https://placeholder-image-service.onrender.com/image/600x400?prompt=Happy angler holding large bass fish with big smile&id=5351b7fa-071b-4964-8cd2-0e7712e893e3"
+                        alt="Proud angler holding a large bass fish with a big smile after a successful catch"
+                        class="rounded-lg shadow-md mb-4"
+                    >
+                    <figcaption class="text-sm text-gray-600 text-center">My personal best largemouth bass - 8.5 pounds caught on a spring morning</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">About This Site</h3>
+                    <p class="text-blue-200">A personal page dedicated to my passion for fishing and the joy it brings to my life.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Fishing Ethics</h3>
+                    <p class="text-blue-200">Always follow local regulations, respect the environment, and practice sustainable fishing methods.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Get In Touch</h3>
+                    <p class="text-blue-200">Share your fishing stories or tips with me at: fisher@example.com</p>
+                </div>
+            </div>
+            <div class="border-t border-blue-700 mt-8 pt-6 text-center text-blue-300">
+                <p>&copy; 2025 A Hook or A Snoek. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
